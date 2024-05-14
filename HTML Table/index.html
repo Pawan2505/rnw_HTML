@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Table with Colspan and Rowspan</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>Monthly Sales Report</caption>
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col>
+        <col>
+    </colgroup>
+    <thead>
+        <tr>
+            <th rowspan="2">Month</th>
+            <th colspan="2">Sales</th>
+        </tr>
+        <tr>
+            <th>Product A</th>
+            <th>Product B</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>January</td>
+            <td>$1000</td>
+            <td>$1500</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$1200</td>
+            <td>$1600</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td colspan="2">$4700</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>

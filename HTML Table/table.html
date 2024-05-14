@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            
+        }
+        th,td{
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Table Practice</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Month</th>
+                <th colspan="3">Project</th>
+            </tr>
+            <tr>
+               
+                <th>Project A</th>
+                <th>Project B</th>
+                <th>Project C</th>
+                <!-- <th>Project D</th> -->
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>E-commerce</td>
+                <td colspan="2">Billing</td>
+                <!-- <td>ERP</td> -->
+                
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>E-commerce</td>
+                <td>Billing</td>
+                <td rowspan="2">ERP</td>
+               
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>E-commerce</td>
+                <td>Billing</td>
+                <!-- <td>ERP</td> -->
+                
+            </tr>
+            
+          
+        </tbody>
+    </table>
+</body>
+</html>

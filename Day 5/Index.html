@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Topics:
+    1. <form action=""></form>
+        <select name="" id=""></select>
+        <option value=""></option>
+        <textarea name="" id=""></textarea>
+    2. <input type="text, email,password,tel, number, file, date, radio,checkbox"/>
+    3. <button></button> tag attribute property like type="reset", type="submit"
+    4. required, selected attribute
+    5. input field attribute like name value placeholder. -->
+
+    <!-- Form -->
+
+    <form method="post">
+        <label for="username" >Name : </label>
+        <input type="text" id="username" name="username" required><br/>
+        <label for="rollNo">Roll No : </label>
+        <input type="text" id="rollNo" name="rollNo" placeholder="Enter Roll No"><br/>
+        <lable for="mobileNumber">Mobile : </lable>
+        <input type="tel" id="mobileNumber" name="mobileNumber"><br/>
+        <label for="emailField">Email</label>
+        <input type="email" id="emailField" name="emailField" placeholder="example123@gmail.com"><br/>
+        <label for="adhar">Adhar No : </label>
+        <input type="number" id="adhar" name="adhar"><br/>
+        <label for="document">Document : </label>
+        <input type="file" id="document" name="document"><br/>
+        <label for="joiningdate">Joining Date : </label>
+        <input type="date" id="joiningdate" name="joiningdate"><br/>
+        <label for="gender">Gender : </label> <br/>
+        <input type="radio" id="gender" value="option1" name="male">
+        <label for="male">Male</label><br/>
+        
+        <input type="radio" id="gender" value="option2" name="female">
+        <label for="female">Female</label><br/>
+        
+        <input type="radio" id="gender" value="option3" name="other">
+        <label for="other">Other</label><br/>
+
+        <label for="skills">Skills Range : </label>
+        <input type="range" id="skills" name="skills"><br/>
+
+
+        <label for="tech">Technologies : </label><br/>
+        <input type="checkbox" id="tech" value="checkboxField1" name="frontend" >
+        <label for="tech">Frontend</label> <br/>
+
+        <input type="checkbox" id="tech" value="checkboxField2" name="frontend" checked>
+        <label for="tech">Backend</label><br/>
+
+        <input type="checkbox" id="tech" value="checkboxField3" name="frontend" >
+        <label for="tech">Full Stack</label><br/>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+
+</body>
+</html>

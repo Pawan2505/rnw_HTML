@@ -1,0 +1,61 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#username{
+    text-align: center;
+}
+
+
+.heading-line {
+    display: flex;
+    align-items: center;
+}
+
+
+
+hr {
+ flex: 2;
+}
+
+em{
+    color: rgb(0, 106, 255);
+}
+
+ul,li{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.edu_date{
+    padding-left: 55rem;
+    font-style: italic;
+}
+
+.edu_date1{
+    padding-left: 57rem;
+    font-style: italic;
+}
+
+#exp_date3{
+    padding-left: 47rem;
+    font-style: italic;
+}
+
+#exp_date2{
+    padding-left: 50rem;
+    font-style: italic;
+}
